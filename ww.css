@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: azure;
+    background-color: black;
+}
+
+#page-1{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: relative; 
+    z-index: 0;
+}
+#nav {
+    width: 100vw;
+    height: 150px;
+    background-color: #F2F2F2;
+}
+
+#page-1 #links a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    word-spacing: 10px;
+}
+
+#nav #icons{
+    font-size: 25px;
+    margin-right: 55px;
+    opacity: 0.3;
+}
+
+#nav #logo{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    position: absolute;
+    left: 20px;
+
+}
+
+#page-1 #nav #icon a{
+    text-decoration: none;
+}
+
+#nav #logo img{
+    width: 120px;
+    height: 140px;
+    overflow: hidden;
+    /* position: absolute; */
+    /* top: 20px; */
+    object-fit: cover;
+    left: 120px;
+    
+}
+
+#page-1 #icons i:hover{
+    cursor: pointer;
+    scale: 1.3;
+}
+
+#page-1 #nav button{
+    font-size: 15px;
+    width: 120px;
+    height: 37px;
+    color: white;
+    background-color: rgb(128, 42, 42);
+    margin-left: 10px;
+}
+
+#page-1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+#page-1 #page1img img{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    /* position: fixed; */
+}
+
+#page-1 #page1img #words {
+    padding-top: 180px;
+    
+}
+
+#page-1 #page1img #words h1{
+   color: white;
+   font-size: 80px;
+   margin-left: 30px;
+   margin-bottom: 10px;
+}
+
+#page-1 #page1img #words button:hover{
+    cursor: pointer;
+}
+
+#page-1 #page1img #words button{
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    margin-left: 40px;
+    /* border: 2px; */
+ }
+/* page2 */
+/* Page-2 Styles */
+#page-2 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #FAFAFA;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-2 #words {
+    margin-top: 330px;
+    text-align: center;
+    color: rgb(6, 6, 6);
+}
+
+#container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#container div {
+    text-align: center;
+    color: #FAFAFA;
+}
+
+#container img {
+    width: 30vw;
+    height: 60vh;
+    /* border-radius: 1px; */
+    transition: transform 0.3s ease-in-out; 
+    
+}
+
+#container img:hover {
+    transform: scale(1.1);
+}
+
+#container h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+#page-2 #container .img button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 280px;
+    height: 50px;
+    color: rgb(152, 16, 16);
+    margin-left: 40px;
+}
+
+#page-2 #container .img #writen{
+    /* background:black; */
+    padding: 10%;
+background-color: rgba;}
+
+#page-3{
+    background-color: #FAFAFA;
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-3 #container{
+    display: flex;
+    margin-top: 90px;
+    position: relative;
+}
+
+#page-3 #container img{
+    margin-top: 120px;
+    width: 50vw;
+    height: 80vh;
+    margin-left: 20px;
+}
+
+#page-3 #container p {
+    color: black;
+}
+
+#page-3  #box{
+    position: absolute;
+    top: 15px;
+    /* ri: 20px; */
+}
+
+#page-3 #container h1{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-top: 10%;   
+}
+
+#page-3 #container button{
+    width: 220px;
+    height: 60px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 16%;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(92, 42, 42);
+}
+
+/* page4 */
+#page-4 {
+    /* width: 100vw;
+    height: 100vh; */
+    text-align: center;
+    /* gap: 30px;  */
+    padding: 20px;
+}
+
+#page-4 #heading header {
+    font-size: 60px;
+    size: 35px; /* This property is incorrect, should be 'font-size' */
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    width: 800px;
+    color: black;
+    margin-left: 280px;
+}
+
+#page-4 .gallery{
+    margin-top: 5%;
+}
+
+#page-4 .gallery #dream {
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+}
+
+#page-4 .gallery #dream #p1 img {
+    width: 65vw;
+    height: 100vh;
+}
+
+#page-4 .gallery #dream #p2 img {
+    width: 47vw;
+    height: 50vh;
+    margin-right: 10px;
+}
+/* page5 */
+#page-5 .gallery #dream{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+#page-5 .gallery #dream #p1 img{
+    width: 42vw;
+    height: 45vh;
+    object-fit: cover;
+}
+
+#page-5 .gallery #dream #p1{
+    gap: 10px;
+}
+
+#page-5 .gallery #dream {
+    gap: 10px;
+}
+
+#page-5 .gallery #dream #p2 img{
+    height: 90vh;
+    width: 53vw;
+}
+
+#page-5 .gallery button{
+    width: 200px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0);
+    color: #9c3131;
+    border: 2px solid rgb(147, 58, 58);
+    margin-left: 550px;
+    margin-top: 80px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
